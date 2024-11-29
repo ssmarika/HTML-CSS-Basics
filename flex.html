@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLEX</title>
+  </head>
+  <body>
+    <!-- display flex has three major attributes
+     display flex handles the positioning of the div
+     1. flex direction : row x axis, column y axis,  row reverse, column reverse
+     2. justify content : usually works with spacing in main axis
+     3. align items : also with spacing but in the secondary axis
+     if flex direction is row, main axis is x axis and the secondary axis is y axis
+      -->
+    <section
+      style="
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+        gap: 30px;
+      "
+    >
+      <!-- div1 -->
+      <div
+        style="height: 200px; width: 200px; background-color: aquamarine"
+      ></div>
+
+      <!-- div2 -->
+      <div
+        style="height: 200px; width: 200px; background-color: blueviolet"
+      ></div>
+
+      <!-- div3 -->
+      <div style="height: 200px; width: 200px; background-color: brown"></div>
+    </section>
+  </body>
+</html>

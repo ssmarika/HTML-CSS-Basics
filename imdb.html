@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMBD</title>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: column; gap: 10px">
+      <section>
+        <!-- section1 -->
+        <div
+          style="
+            height: 10vh;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+          "
+        >
+          <!-- navigation bar -->
+          <img
+            src="https://m.media-amazon.com/images/G/01/IMDb/brand/guidelines/imdb/IMDb_BrandBanner_1920x425.jpg"
+            alt="imbd logo"
+            height="100%"
+        
+          />
+
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/041/731/090/small/login-icon-vector.jpg"
+            alt="login logo"
+            height="100%"
+          />
+        </div>
+
+        <div
+          style="
+            height: 15vh;
+            background-color: rgb(24, 23, 23);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          "
+        >
+          <!-- title -->
+          <h1><font style="color: aliceblue">TOP ACTORS OF THE WORLD</font></h1>
+        </div>
+      </section>
+
+      <section>
+        <!-- section2 -->
+        <div style="height: 30vh; background-color: antiquewhite">
+          <!-- actor1 -->
+          <div style="height: 50%; display: flex; justify-content: flex-start">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt="Jack nicholson Photo"
+              height="100%"
+            />
+            <div style="height: 100%; display: flex; flex-direction: column">
+              <h3\><b>1. JACK NICHOLSON</b></h3>
+
+              <div style="display: flex; justify-content: space-between">
+                <h5>Actor</h5>
+                <h5>Producer</h5>
+                <h5>Writer</h5>
+              </div>
+
+              <a
+                href="https://en.wikipedia.org/wiki/Chinatown_(1974_film)"
+                target="_blank"
+                >Chinatown(1974)</a
+              >
+            </div>
+          </div>
+          <div style="height: 50%">
+            Jack Nicholson, an American actor, producer, director and
+            screenwriter, is a three-time Academy Award winner and twelve-time
+            nominee. Nicholson is also notable for being one of two actors - the
+            other being Michael Caine - who have received an Oscar nomination in
+            every decade from the '60s through the '00s.
+          </div>
+        </div>
+
+        <div style="height: 30vh; background-color: beige">
+          <!-- actor2 -->
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
