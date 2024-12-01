@@ -1,0 +1,66 @@
+<!-- UNITS FOR MARGIN AND PADDING -->
+<!-- px -->
+<!-- rem (1 rem= 16 px)  -->
+<!-- width => 100 vw -->
+<!-- height => 100vh -->
+<!-- the percent also depends on the parent -->
+
+<!-- we have two methods of writing the style, inline and by writing it inside the head by describing it as element and class  -->
+<!-- class begins from . and id begins from #  -->
+<!-- serve the same purpose but utility is different. class is for reusability, id is specific purpose -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margin + Padding</title>
+
+    <style>
+      body {
+        /* this is an element */
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        /* begins with . this is a class */
+        height: 10rem;
+        width: 10rem;
+      }
+
+      .blue-box {
+        background-color: blue;
+      }
+
+      .green-box {
+        background-color: green;
+      }
+
+      .text {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      #first-text {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box blue-box"></div>
+
+    <div class="box green-box text">
+      <p>HTML</p>
+      <p>hello</p>
+      <p id="first-text">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
+        laboriosam ducimus ullam enim voluptate voluptatum beatae perspiciatis
+        voluptas error, amet reiciendis distinctio odit maiores molestiae porro
+        optio. Voluptatibus, rem et.
+      </p>
+    </div>
+  </body>
+</html>
